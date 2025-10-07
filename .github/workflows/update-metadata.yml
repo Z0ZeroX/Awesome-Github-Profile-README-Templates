@@ -1,0 +1,53 @@
+# .github/workflows/update-metadata.yml
+name: Update Templates Metadata
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'templates/**/*.md'
+  workflow_dispatch:
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate metadata
+        run: |
+          echo "🔍 Running metadata generation..."
+          node scripts/generate-metadata.js
+          echo "📁 Checking if file was created..."
+          ls -la templates-metadata.json || echo "❌ File not found!"
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          echo "📋 Git status before adding:"
+          git status
+          if [ -f "templates-metadata.json" ]; then
+            git add templates-metadata.json
+            echo "📋 Git status after adding:"
+            git status
+            git diff --staged --exit-code templates-metadata.json || echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "❌ templates-metadata.json not found, skipping"
+          fi
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "chore: update templates metadata [skip ci]"
+          git push

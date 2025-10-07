@@ -7,52 +7,68 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2025-09-30
+## [1.1.0] - 2025-10-07
+
+### Added
+- Project website integration: https://z0zerox.github.io/Awesome-Github-Profile-README-Templates
+- Website badge in README.md header section
+- Prominent website links across all documentation files
+- Comprehensive Tools & Resources guide (TOOLS.md)
+- Detailed Best Practices guide (BEST_PRACTICES.md) 
+- Enhanced Featured Profiles section (FEATURED.md)
+- Live preview functionality promotion throughout docs
+
+### Enhanced
+- README.md with website integration and improved resource section
+- Template Guide with website preview links
+- Documentation structure with cross-references
+- User experience with easy access to live template previews
+
+### Documentation
+- Complete overhaul of minimal documentation files
+- Added comprehensive tool recommendations and generators
+- Detailed best practices for profile creation and maintenance
+- Framework for community-featured profiles
+- Enhanced navigation between documentation sections
+
+## [1.0.0] - 2025-10-01
 
 ### Added
 - Initial release of Awesome GitHub Profile README Templates
-- 11 template categories with example files
-- Comprehensive documentation in `docs/` folder
-- GitHub Pages integration with Docsify
+- 9 main template categories with organized folder structure
+- Basic documentation structure with placeholder files
 - Contributing guidelines and code of conduct
-- Template validation and preview system
-- Mobile-responsive design
-- Search functionality
+- MIT License
+- Repository structure and organization
 
 ### Template Categories
-- 🎨 Creative - Artistic and animated profiles
-- 💼 Professional - Business-appropriate designs  
-- 👨‍💻 Developer - Tech-focused profiles
-- 📊 Stats - GitHub statistics focus
-- 🎮 Gaming - Gaming-themed profiles
-- ⚡ Dynamic - Real-time data integration
-- 🎯 Minimal - Clean and simple
-- 🎪 Multimedia - Rich media content
-- 🎓 Academic - Research and education
-- 🎭 Fun - Playful and unique
-- 🔧 Others - Community contributions
+- 🎨 Creative & Artistic - Artistic designs and animations
+-  💻 Code-Focused - Code-heavy and development themes
+- ⚡ Dynamic & Interactive - Real-time updates and interactive elements
+- 🎯 Minimalistic - Clean and simple designs
+- 📊 Data & Visual - Charts, graphs, and statistics
+- 🎬 Media-Rich - Image and GIF heavy templates
+- 🏷️ Badges & Icons - Skill badges and technology icons
+- ✨ Showcase Collections - Comprehensive templates
+- 🔧 Others - Experimental and unique designs
 
 ### Documentation
-- Quick Start Guide
-- Best Practices Guide
-- Tools & Resources
-- Template Creation Guide
-- Featured Profiles
-- Contributing Guidelines
+- Basic README.md with project overview
+- CONTRIBUTING.md with contribution guidelines
+- CODE_OF_CONDUCT.md for community standards
+- Basic documentation folder structure
 
 ### Infrastructure
-- GitHub Actions for automated deployment
-- Docsify documentation site
-- Template validation system
-- Preview image management
-- Issue and PR templates
+- GitHub repository setup
+- Folder organization for templates
+- Basic project structure
 
-## [0.1.0] - 2024-12-01
+## [0.1.0] - 2025-10-01
 
 ### Added
-- Initial project structure
-- Basic template examples
-- README documentation
+- Initial project concept and repository creation
+- Basic folder structure planning
+- Initial template collection research
 
 ---
 

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Awesome collection of GitHub profile README templates. Browse, preview, and download beautiful templates to make your profile stand out.">
+    <meta name="keywords" content="github profile, readme templates, markdown, developer portfolio, github pages">
+    <meta name="author" content="Community Contributors">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://z0zerox.github.io/Awesome-Github-Profile-README-Templates/">
+    <meta property="og:title" content="Awesome GitHub Profile README Templates">
+    <meta property="og:description" content="Browse and download beautiful GitHub profile README templates to make your profile stand out.">
+    <meta property="og:image" content="https://z0zerox.github.io/Awesome-Github-Profile-README-Templates/previews/hero-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://z0zerox.github.io/Awesome-Github-Profile-README-Templates/">
+    <meta property="twitter:title" content="Awesome GitHub Profile README Templates">
+    <meta property="twitter:description" content="Browse and download beautiful GitHub profile README templates to make your profile stand out.">
+    <meta property="twitter:image" content="https://z0zerox.github.io/Awesome-Github-Profile-README-Templates/previews/hero-image.png">
+    
+    <title>Awesome GitHub Profile README Templates</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/5.1.1/marked.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🚀 GitHub Profile README Templates</h1>
+            <p class="subtitle">Awesome collection of GitHub profile README templates to make your profile stand out</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="search-section">
+                <input type="text" id="searchInput" placeholder="🔍 Search templates by name, author, tags, or features..." class="search-input">
+                <div class="filter-tags">
+                    <!-- Filter buttons will be generated dynamically -->
+                </div>
+                <div class="stats-info" id="statsInfo" style="text-align: center; margin-top: 16px; color: var(--secondary-color); font-size: 0.9rem;">
+                    <span id="templateCount">Loading...</span> templates available
+                </div>
+            </div>
+
+            <div class="templates-grid" id="templatesGrid">
+                <!-- Templates will be loaded here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for template preview -->
+    <div id="templateModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="tabs">
+                    <button class="tab-btn active" onclick="switchTab('preview')">Preview</button>
+                    <button class="tab-btn" onclick="switchTab('code')">Code</button>
+                </div>
+                <div id="previewContent" class="tab-content active"></div>
+                <div id="codeContent" class="tab-content">
+                    <pre><code id="rawCode"></code></pre>
+                    <button class="copy-btn" onclick="copyCode()">Copy Code</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Awesome GitHub Profile README Templates. Made with ❤️ for the developer community.</p>
+            <p>
+                <a href="https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates" target="_blank">🌟 GitHub Repository</a> |
+                <a href="#contribute" onclick="showContributeModal()">📝 Contribute Templates</a> |
+                <a href="https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates/issues" target="_blank">🐛 Report Issue</a>
+            </p>
+            <div class="contribution-stats" style="margin-top: 16px; font-size: 0.9rem; color: rgba(255,255,255,0.8);">
+                <span id="contributorCount">🧑‍💻 Community-driven project!</span> • 
+                <span id="lastUpdate">🔄 Auto-updates from repository</span>
+            </div>
+            <!-- <div class="contribution-stats" style="margin-top: 16px; font-size: 0.9rem; color: rgba(255,255,255,0.8);">
+                <span id="contributorCount">🧑‍💻 Loading contributors...</span> • 
+                <span id="lastUpdate">🔄 Auto-synced with GitHub</span> • 
+                <span id="githubStats">⭐ Loading repository stats...</span>
+            </div> -->
+        </div>
+    </footer>
+
+    <!-- Contribute Modal -->
+    <div id="contributeModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🚀 Contribute Your Template</h2>
+                <button class="close-btn" onclick="closeContributeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="contribution-guide">
+                    <h3>📝 How to Contribute</h3>
+                    <ol>
+                        <li><strong>Fork the Repository</strong>: Fork the main repository on GitHub</li>
+                        <li><strong>Add Your Template</strong>: Create your <code>.md</code> file in the appropriate category folder:
+                            <ul>
+                                <li><code>templates/minimalistic/</code> - Clean and simple designs</li>
+                                <li><code>templates/showcase-collections/</code> - Comprehensive showcase profiles</li>
+                                <li><code>templates/creative-artistic/</code> - Creative and artistic templates</li>
+                                <li><code>templates/code-focused/</code> - Developer and tech-focused</li>
+                                <li><code>templates/data-visual/</code> - Stats and data-driven</li>
+                                <li><code>templates/dynamic-interactive/</code> - Interactive content</li>
+                                <li><code>templates/media-rich/</code> - Rich media and multimedia</li>
+                                <li><code>templates/badges-icons/</code> - Badge and icon focused</li>
+                                <li><code>templates/others/</code> - Unique and misc templates</li>
+                            </ul>
+                        </li>
+                        <li><strong>File Naming</strong>: Use your GitHub username as filename: <code>your-username.md</code></li>
+                        <li><strong>Submit PR</strong>: Create a pull request with your template</li>
+                        <li><strong>Auto-Update</strong>: Once merged, the site will automatically detect and display your template!</li>
+                    </ol>
+
+                    <h3>✅ Detailed Guidelines</h3>
+                    <p>For detailed contribution guidelines, please refer to the <a href="https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates/blob/master/CONTRIBUTING.md" target="_blank">Template Guide</a>.</p>
+
+                    <div class="contribution-actions">
+                        <a href="https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates/fork" target="_blank" class="btn btn-primary">
+                            🍴 Fork Repository
+                        </a>
+                        <a href="https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates/tree/master/templates" target="_blank" class="btn btn-secondary">
+                            📁 Browse Categories
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "name": "github-profile-readme-templates",
+  "version": "1.0.0",
+  "description": "A beautiful collection of GitHub profile README templates with live preview",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates.git"
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "readme",
+    "templates",
+    "markdown",
+    "github-pages",
+    "static-site",
+    "developer-tools"
+  ],
+  "author": "Z0ZeroX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates/issues"
+  },
+  "homepage": "https://Z0ZeroX.github.io/Awesome-Github-Profile-README-Templates",
+  "devDependencies": {},
+  "dependencies": {}
+}
