@@ -3,8 +3,11 @@
 [![GitHub stars](https://img.shields.io/github/stars/Z0ZeroX/Awesome-Github-Profile-README-Templates?style=for-the-badge&logo=github)](https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Z0ZeroX/Awesome-Github-Profile-README-Templates?style=for-the-badge&logo=github)](https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates/network/members)
 [![GitHub contributors](https://img.shields.io/github/contributors/Z0ZeroX/Awesome-Github-Profile-README-Templates?style=for-the-badge&logo=github)](https://github.com/Z0ZeroX/Awesome-Github-Profile-README-Templates/graphs/contributors)
+[![Website](https://img.shields.io/badge/Website-Visit%20Here-blue?style=for-the-badge&logo=world&logoColor=white)](https://z0zerox.github.io/Awesome-Github-Profile-README-Templates)
 
 A collection of GitHub profile README examples to help you create an awesome profile that stands out.
+
+🌐 **Visit our website**: [https://z0zerox.github.io/Awesome-Github-Profile-README-Templates](https://z0zerox.github.io/Awesome-Github-Profile-README-Templates)
 
 **Contributions are welcome!** Read the [Guidelines](CONTRIBUTING.md) on how to [contribute](CONTRIBUTING.md). Feel free to add your or someone else's GitHub profile README template.
 
@@ -44,6 +47,7 @@ Don't forget to hit the ⭐ if you like this repo.
 
 ## 🛠️ Resources
 
+- 🌐 **[Project Website](https://z0zerox.github.io/Awesome-Github-Profile-README-Templates)** - Browse templates with live preview
 - 📚 **[Documentation](docs/)** - Complete guides and tutorials
 - 📁 **[Browse Templates](templates/)** - Explore all template categories
 - 🎨 **[Tools & Generators](docs/TOOLS.md)** - Helpful tools for creating your profile

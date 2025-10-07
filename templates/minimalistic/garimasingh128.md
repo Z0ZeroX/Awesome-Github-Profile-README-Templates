@@ -1,6 +1,6 @@
 ---
 title: garimasingh128
-date: 2020-25-07
+date: 2020-07-25
 spoiler: Elaborate Readme Template
 categories: ["elaborate", "all-profile"]
 githubUsername: 'garimasingh128'

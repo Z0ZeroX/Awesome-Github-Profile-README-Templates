@@ -1,6 +1,6 @@
 ---
-title: availchet
-date: '2020-21-07'
+title: chetanyakan
+date: '2020-07-21'
 spoiler: Elaborate Realtime Readme Template
 categories: ["elaborate", "all-profile"]
 githubUsername: 'availchet'
