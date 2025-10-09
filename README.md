@@ -89,10 +89,6 @@ Read our [Contributing Guidelines](CONTRIBUTING.md) for detailed information.
 
 ---
 
-## Special Thanks 🙇
-- [User-name](https://github.com/) for making the amazing site for this repo!
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) - feel free to use, modify, and distribute these templates.
