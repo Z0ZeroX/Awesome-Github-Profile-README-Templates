@@ -7,20 +7,21 @@ Please [open a pull request](https://github.com/Z0ZeroX/Awesome-Github-Profile-R
 This is a curated list so the goal is not to collect all possible resources but collect the ones which are most helpful, provide a unique perspective, or are of special significance.
 
 ---
+<details>
+<summary><b>📋 Table of Contents</b></summary>
 
-## 📋 Table of Contents
 
 - [How to contribute Templates](#how-to-contribute)
-- [Other Ways to Contribute](#-other-ways-to-contribute)
+- [Other Ways to Contribute](#other-ways-to-contribute)
 - [Template Categories](./docs/TEMPLATE_GUIDE.md#category-overview)
 - [Folder Structure](./docs/TEMPLATE_GUIDE.md#folder-structure)
 - [How to Choose a Category](./docs/TEMPLATE_GUIDE.md#how-to-choose-a-category)
-- [Template Quality Guidelines](#-template-quality-guidelines)
+- [Template Quality Guidelines](#template-quality-guidelines)
 - [Community Guidelines](#-community-guidelines)
 - [Need Help](#-need-help)
 
-
 ---
+</details>
 
 ## How to contribute Templates:
 
@@ -75,8 +76,10 @@ Example: `templates/minimalistic/johndoe.md`
 - **Step 12:** All Done! Thank you for contributing! 🎉
 
 ---
+<details>
+<summary><b>🌟 Other Ways to Contribute</b></summary>
 
-## 🌟 Other Ways to Contribute
+## Other Ways to Contribute
 
 Beyond submitting templates, there are many ways to help improve this project:
 
@@ -141,6 +144,12 @@ Beyond submitting templates, there are many ways to help improve this project:
 **Remember:** Every contribution matters, no matter how small! 🙌
 
 ---
+</details>
+
+<details>
+<summary><b>🌟 Template Quality Guidelines</b></summary>
+
+## Template Quality Guidelines
 
 ### ✅ What we look for:
 - **Unique design** - Offers something new or improved
@@ -158,6 +167,8 @@ Beyond submitting templates, there are many ways to help improve this project:
 - Templates requiring external image hosting
 - Poor documentation or unclear instructions
 - Templates that don't fit any category clearly
+
+</details>
 
 ## 🤝 Community Guidelines
 

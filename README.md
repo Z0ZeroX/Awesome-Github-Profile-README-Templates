@@ -16,7 +16,7 @@ Don't forget to hit the ⭐ if you like this repo.
 ---
 
 <details>
-<summary>📂 Template Categories</summary>
+<summary><b>📂 Template Categories</b></summary>
 
 | Category | Icon | Description | Folder | Examples |
 |----------|------|-------------|--------|----------|
@@ -36,7 +36,7 @@ Don't forget to hit the ⭐ if you like this repo.
 </details>
 
 <details>
-<summary>🚀 Quick Start</summary>
+<summary><b>🚀 Quick Start</b></summary>
 
 1. **Browse categories** - Find the style that matches your personality
 2. **Choose a template** - Pick from our organized collection
@@ -50,7 +50,7 @@ Don't forget to hit the ⭐ if you like this repo.
 </details>
 
 <details>
-<summary>🛠️ Resources</summary>
+<summary><b>🛠️ Resources</b></summary>
 
 - 🌐 **[Project Website](https://z0zerox.github.io/Awesome-Github-Profile-README-Templates)** - Browse templates with live preview
 - 📚 **[Documentation](docs/)** - Complete guides and tutorials
@@ -82,7 +82,7 @@ We welcome all types of contributions! Here's how you can help:
 Read our [Contributing Guidelines](CONTRIBUTING.md) for detailed information.
 
 <details>
-<summary>Every contribution matters! 🙌</summary>
+<summary><b>Every contribution matters! 🙌</b></summary>
 
 - **9 Main Categories** + Others for complete coverage
 - **Organized structure** with clear folder hierarchy  
