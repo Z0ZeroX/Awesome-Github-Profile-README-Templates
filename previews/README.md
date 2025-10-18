@@ -125,4 +125,4 @@ For preview image help (optional):
 
 **Priority: Great templates > Preview images** 🎯
 
-Thank you for contributing awesome templates! �
+Thank you for contributing awesome templates!
